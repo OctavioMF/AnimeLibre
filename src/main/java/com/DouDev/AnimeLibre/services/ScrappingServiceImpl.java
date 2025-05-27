@@ -45,7 +45,7 @@ public class ScrappingServiceImpl implements ScrappingService{
             }
 
         } catch (Exception e) {
-            Logger.getLogger(ScrappingServiceImpl.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(ScrappingServiceImpl.class.getName()).log(Level.SEVERE, "Error interno", e);
         }
         
         return animeList;
@@ -77,7 +77,7 @@ public class ScrappingServiceImpl implements ScrappingService{
             }
             
         } catch (Exception e) {
-            Logger.getLogger(ScrappingServiceImpl.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(ScrappingServiceImpl.class.getName()).log(Level.SEVERE, "Error interno", e);
         }
         return anime;
     }
@@ -108,7 +108,7 @@ public class ScrappingServiceImpl implements ScrappingService{
 
 
         } catch (Exception e) {
-            Logger.getLogger(ScrappingServiceImpl.class.getName()).log(Level.SEVERE, null, e);
+            Logger.getLogger(ScrappingServiceImpl.class.getName()).log(Level.SEVERE, "Error interno", e);
         }
 
         return links;
